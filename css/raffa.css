@@ -1,0 +1,172 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #ffffff; 
+}
+
+body {
+	margin: 0;
+	padding: 0; 
+	font: normal 0.75em/1.5em Tahoma, Verdana, Arial, Georgia, sans-serif; 
+	color:  #333333;  
+	text-align: center;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #006699;
+	border-bottom: 1px dotted #006699;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #aecedf;
+	border-bottom: 1px solid #aecedf;
+}
+
+acronym {
+	text-decoration: none;
+	color: #d7661c;
+	border-bottom: 1px dotted #d7661c;
+	cursor: help;
+}
+
+p, h1, h2, h3, ul {
+	margin-top: 1.3em;
+	margin-bottom: 1.1em;
+}
+
+h1 { 130%; font-weight: 400; color: #334D55; }
+h2 { 120%; font-weight: 400; color:  #006699; }
+h3 { 110%; font-weight: 400; color: #334D55; }
+
+
+#wrap {
+	width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    padding: auto;
+}
+
+#wrapinside {
+    margin: auto 40px auto 40px;
+    padding: 0px;
+	text-align: left;
+}
+
+#pathway {
+	background-color: #006699; /* Ros: remove this to remove the background color from the strip containing "Web Pages of R. Bernardi at UniTN" */
+	margin: 20px 0px 40px 0px;
+   	padding: 2px 0px;
+}
+#pathway p.path {
+	padding: 0px 12px;
+    border: none;
+    text-decoration: none;
+    color: #efefef;
+    letter-spacing: .5em;
+    font-size: 90%;
+    text-align: center;
+}
+
+#content{
+	float: left;
+	border: 1px solid #bbbbbb; /* Ros: remove this to remove the outer border */
+	background-color: #fefffc;
+	width: 560px;
+    padding-top: 0px;
+	text-align: center;
+}
+#contentinside {
+    padding-right: 55px;
+    padding-left: 55px;
+    text-align: left;
+}
+#contentinside h1 {
+	text-transform: uppercase;
+	font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 120%;
+}
+
+#contentinside h2, h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+    letter-spacing: 5px;
+   }
+#contentinside ul li { 
+    list-style-type: square;
+    margin-left: 10px;
+    padding-left: 4px;
+}
+#contentinside ol li { 
+	list-style-position: outside;    
+    margin-left: 1.5em;
+    padding-left: 4px;
+}
+
+#contentbottom { 
+    padding-bottom: 100px; 
+}
+
+#sidebar{
+	margin-left: 600px;
+	padding-top: 10px;
+	padding-left: 30px;
+	letter-spacing: 1px;
+}
+#sidebar h3 {
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+#sidebar ul, li {
+	text-align: left;
+	list-style: display;
+	line-height: 160%;
+	margin: 0;
+	padding: 0;
+}
+#sidebar a {
+	display: block;
+	margin: 0;
+	padding: 3px 14px;
+	border-bottom: 1px solid #f0f0f2; /* #ECEFD7; */
+}
+#sidebar a:hover {
+    border-bottom: 1px solid #aecedf;
+}
+#sidebar #active_menu {
+    border-bottom: 1px dashed #006699;
+}
+#sidebar .inactive_menu {
+	color: #999999;
+}
+
+
+#footer{
+	clear: left;
+	margin-top: 20px;
+    padding-bottom: 10px;
+    color: #999999;
+    letter-spacing: .5em;
+    font-size: 90%;
+	text-align: center;
+}
+#footerinside { 
+	display: block;
+	padding-left: 50px;
+	padding-right: 100px;
+} 
+#footerinside a, #footer a:visited {
+	padding: 4px;
+    border: 1px dotted #fefefe;
+    text-decoration: none;
+    color: #cccccc;
+}
+#footerinside a:hover {
+	color: #999999;
+    border: 1px dashed #999999;
+}
